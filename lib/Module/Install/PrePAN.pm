@@ -53,9 +53,8 @@ $meta.resources.X_prepan.
 CPAN META Spec version 1.4 specifies that unofficial keys under
 $meta.resource must include at least one upper-case letter but version
 2 doesn't. Besides, ver.2 formalized all custom keys not listed in the
-official spec use "x_" or "X_". Ver.2 has been a draft yet so that
-toolchains haven't supported the new spec around $meta.resources. See
-L<CPAN::Meta::Spec> and L<CPAN::Meta::History> for details.
+official spec use "x_" or "X_". See L<CPAN::Meta::Spec> and
+L<CPAN::Meta::History> for details.
 
 This module uses the key "X_prepan" because of that.
 
