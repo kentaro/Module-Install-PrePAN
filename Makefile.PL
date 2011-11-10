@@ -9,7 +9,9 @@ name        'Module-Install-PrePAN';
 all_from    'lib/Module/Install/PrePAN.pm';
 readme_from 'lib/Module/Install/PrePAN.pm';
 
-prepan_url  'http://prepan.org/module/3Yz7PYrBJG';
+prepan module_url => 'http://prepan.org/module/3Yz7PYrBJG',
+       author_url => 'http://prepan.org/user/3XR97nG2Gi';
+
 auto_set_repository;
 
 tests 't/*.t';
