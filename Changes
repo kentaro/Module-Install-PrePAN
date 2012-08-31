@@ -1,5 +1,9 @@
 Revision history for Perl extension Module::Install::PrePAN
 
+0.05    2012-08-31
+
+        - adjust key names according to the discussion at http://prepan.org/module/429En4oFdp
+
 0.04    2011-11-23
 
         [TESTING ISSUE]
